@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+.header .navbar{
+    font-size: 1.6rem;
+}
+
+/* ##########   UTILITY CLASS ########## */
+.red-color{
+    color: red;
+}
+.lg-size{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.lg-size1{
+    color: #263238;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.lg-size2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.par{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.lg-font{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.mg-size{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.mg-size1{
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.text-color{
+    color: white;
+}
+.white-color{
+    color: white;
+}
+
+.gray-color{
+    color: gray;
+}
+
+.container{
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+     height: 100vh;
+     width: 100%;
+     background: url('../img/city.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+/* ####### heading style ######### */
+.header .navbar{
+    border: 2px none green;
+    padding: 10px;
+}
+
+.header .uliteams a,
+.header .logo {
+    color: white;
+}
+
+.header .logo{
+    float: left;
+}
+
+.header .navbar .uliteams{
+    float: right;
+}
+.navbar a:hover{
+    border-bottom: 2px solid white;
+}
+.navbar .uliteam{
+     list-style-type: none;
+}
+.navbar a{
+    padding: 0.3em;
+}
+.header .uliteam{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ######## main-heading ###########*/
+.btn-secondry{
+    color: red;
+    border-radius: 1.5em;
+    border: 2px solid red;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: white;
+    border-radius: 100px;
+}
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5em 1.5em;
+    margin: 0.5em 0;
+}
+.main-heading{
+    position: absolute;
+    border: 2px none white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ############ showcase style ########## */
+
+.showcase{
+    padding: 10rem;
+}
+.row{
+    height: 250px;
+    border: 1px none black; 
+    box-shadow: 5px 5px 20px 0px rgba(3, 3, 3, 0.667);
+}
+.row1 .image-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .image-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.image-box{
+    border: 2px none black;
+    height: 100%;
+}
+.text-box{
+    border: red none 2px;
+    height: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+.row1{
+    margin-bottom: 10rem;
+}
+/*.row1 .image-box{
+    background: url('../img/beach.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row2 .image-box{
+    background: url('../img/river.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+.row .image-box img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* #####  box styling ############*/
+.feature{
+    padding: 10rem 0;
+}
+.boxmodel{
+    border: 2px none black;
+    box-shadow: 0px 0px 20px 0px black;
+    margin-bottom: 70px;
+}
+.box{
+    width: 33.333333%;
+    height: 100%;
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+.boxmodel::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.box1, .box3{
+    background-color: #263238;
+    color: white;
+}
+.box2{
+    background-color: #8A795D;
+    color: white;
+}
+.h1h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.p1p1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+/* ########### footer style ######### */
+
+.footer{
+    background-color: #263238;
+    color: rgb(164, 224, 248);
+    text-align: center;
+    padding: 10px;
+}
+.footer p{
+    font-size: 1.6rem;
+}
+/*    ########## about page ############### */
+
+.header1 .navbar1{
+    font-size: 1.6rem;
+}
+.lg-size3{
+    
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.container1{
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.header1 .uliteams1 a,
+.header1 .logo1 {
+    color: white;
+}
+.header1 .logo1{
+    float: left;
+}
+
+.header1 .navbar1 .uliteams1{
+    float: right;
+}
+.navbar1 a:hover{
+    border-bottom: 2px solid white;
+}
+.navbar1 .uliteam1{
+     list-style-type: none;
+}
+.navbar1 a{
+    padding: 0.3em;
+}
+.header1 .uliteam1{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.navbar1::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header1 .navbar1{
+    background-color: #263238;
+    padding: 20px;
+}
+.container2{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.borderbottem{
+    border-bottom: 3px solid #263238;
+}
+.par1{
+    color: #263238;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.list1{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.list2{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.container2 ol{
+    list-style: none;
+}
+.lg-size4{
+    color: #263238;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.type{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 50px;
+}
+.detail::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.botten{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5em 1.5em;
+    margin: 0.5em 0;
+    border: 2px solid white;
+    background-color: #263238;
+    text-align: center;
+}
+.container3{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #263238;
+    box-shadow: 0px 0px 20px 0px black;
+    margin-bottom: 100px;
+}
+.down{
+    float: left;
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.up{
+    float: right;
+    width: 30%;
+}
+.container3::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.mg-size5{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* ##############3 contact form styling  ################### */
+
+.contact-form{
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+.formwrapper{
+    border: 2px none red;
+    margin-bottom: 30rem;
+}
+.copadd{
+    border: 2px none green;
+    float: left;
+    width: 48%;
+    box-shadow: 0px 0px 20px 0px black;
+    background-color: #263238;
+    color: azure;
+}
+.form{
+    border: 2px none black;
+    float: right;
+    width: 48%
+}
+.formwrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.comaddg{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.formwrapper .imgcom{
+     max-width: 90%;
+     max-height: 30rem;
+     object-fit: cover;
+     box-shadow: 0px 0px 20px 0px black;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     object-position: right;
+}
+.form h1::after{
+     content: '';
+     display: block;
+     clear: both;
+     border: 3px solid darkgray;
+     margin: 10px 0px;
+}
+.form label{
+     display: block;
+}
+.form input{
+     padding: 1rem;
+     width: 100%;
+     background-color: darkgray;
+}
+.form .formg{
+    margin-bottom: 1.5rem;
+}
+
+form label::after{
+    content: "*";
+    color: tomato;
+}
+.form textarea{
+    width: 100%;
+    height: 170px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    background-color: darkgray;
+}
+.btn-form{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: black;
+    background-color: darkgray;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.form{
+    height: 600px;
+    background-color: #263238;
+    color: azure;
+    padding-left: 10px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.copadd{
+    height: 600px;
+}
+
+
+
+
+/* #################  media query   ########################  */
+
+@media (max-width: 500px){
+    :root{
+        font-size: 50%;
+    }
+    .container .logo,
+    .container .uliteams{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .showcase .image-box,
+    .showcase .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .showcase .text-box{
+        text-align: center;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .feature .box1,
+    .feature .box2,
+    .feature .box3{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .container1 .logo1,
+    .container1 .uliteams1{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .footlabel .down,
+    .footlabel .up{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form .copadd,
+    .contact-form .form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .copadd{
+        margin-bottom: 4rem;
+    }
+.box{
+    margin-bottom: 5rem;
+}
+.row1 .image-box{
+    width: 100%;
+    height: 100%;
+}
+}
+@media (min-width: 501px) and (max-width:800px){
+    .container .logo,
+    .container .uliteams{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .showcase .image-box,
+    .showcase .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .box{
+        margin-bottom: 5rem;
+    }
+    .row1 .image-box{
+        width: 100;
+        height: 100%;
+    }
+    .showcase .text-box{
+        text-align: center;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .feature .box1,
+    .feature .box2,
+    .feature .box3{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .container1 .logo1,
+    .container1 .uliteams1{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .footlabel .down,
+    .footlabel .up{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form .copadd,
+    .contact-form .form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .copadd{
+        margin-bottom: 4rem;
+    }
+}
